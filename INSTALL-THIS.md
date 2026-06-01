@@ -8,9 +8,9 @@ Why the setup: a plain chat cannot actually read Reddit, so it guesses what your
 
 ## Setup (one time, about 10 minutes)
 
-1. **Get Claude Code.** Download the desktop app from claude.ai and sign in. Free or paid Claude both work.
+1. **Get Claude Code (needs a paid Claude plan, Pro or higher).** Claude Code lives inside the Claude desktop app. The Code tab will not open on free Claude. Download the app from claude.com/download, install, and sign in.
 
-2. **Open it. It will ask you to open a folder.** This is the step nobody expects. Make a new empty folder on your Desktop, name it anything like "recon", and pick it. That folder is where your reports get saved.
+2. **Open the Code tab. Pick a folder.** Click the Code tab at the top, choose "Local", click "Select folder", and pick a new empty folder on your Desktop (call it "recon"). That folder is where your reports get saved. (Windows only: Git must be installed, from git-scm.com.)
 
 3. **Install uv.** This is the small helper that connects to Reddit. Open the Terminal app and paste one line:
    - Mac: `curl -LsSf https://astral.sh/uv/install.sh | sh`

@@ -29,9 +29,9 @@ This is why it runs in Claude Code with a real Reddit connection, not a chat box
 
 ## Setup (one time)
 
-1. Get Claude Code. Download the desktop app from claude.ai and sign in.
-2. Open it. It asks you to open a folder. Make an empty folder anywhere and pick it. That is where your reports save.
-3. Install `uv` (the Reddit connection runs through it):
+1. You need a paid Claude plan (Pro or higher). Claude Code lives inside the Claude desktop app and will not open on free Claude.
+2. Download the Claude desktop app from claude.com/download, install, and sign in. Click the Code tab. Choose "Local", click "Select folder", pick a new empty folder. That is where your reports save. (Windows: Git must be installed.)
+3. Install `uv` (the Reddit connection runs through it). This is the one Terminal step:
    - Mac/Linux: `curl -LsSf https://astral.sh/uv/install.sh | sh`
    - Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/install.ps1 | iex"`
 4. Install this plugin:
