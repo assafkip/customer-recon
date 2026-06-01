@@ -1,0 +1,17 @@
+{
+  "name": "customer-recon",
+  "version": "1.0.0",
+  "description": "Threat-intelligence recon on your market. Reads what your buyers actually say on Reddit, with links to every thread. Grounded in real data, no made-up quotes.",
+  "author": {
+    "name": "Assaf Kipnis",
+    "email": "assaf@askconsulting.io"
+  },
+  "license": "MIT",
+  "keywords": ["reddit", "market-research", "customer-research", "voice-of-customer", "founder-tools"],
+  "mcpServers": {
+    "reddit": {
+      "command": "uvx",
+      "args": ["reddit-no-auth-mcp-server"]
+    }
+  }
+}
