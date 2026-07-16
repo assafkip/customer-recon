@@ -7,11 +7,5 @@
     "email": "assaf@askconsulting.io"
   },
   "license": "MIT",
-  "keywords": ["reddit", "market-research", "customer-research", "voice-of-customer", "founder-tools"],
-  "mcpServers": {
-    "reddit": {
-      "command": "uvx",
-      "args": ["reddit-no-auth-mcp-server"]
-    }
-  }
+  "keywords": ["reddit", "market-research", "customer-research", "voice-of-customer", "founder-tools"]
 }
