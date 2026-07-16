@@ -11,7 +11,7 @@ Read the market the way an analyst reads a target. People tell the truth when th
 
 ## The rule that matters
 
-This uses real Reddit data through the canonical Reddit tooling (reddit-build-radar's arctic-shift/pullpush mirror, `reddit-fetch.py`, or kipi-mcp `fetch_hot_threads` — a script/ingestion path, NOT an MCP). It does not invent quotes, threads, or sentiment.
+This uses real Reddit data through the canonical Reddit tooling (reddit-build-radar's arctic-shift/pullpush mirror — a script/ingestion path, NOT an MCP). It does not invent quotes, threads, or sentiment.
 
 - Every quote must come from a real thread you pulled, with a link. No paraphrased "people say" without a source.
 - If a search returns nothing, say so. Gaps are intel. Do not pad.
@@ -31,7 +31,7 @@ If passed as `$ARGUMENTS`, use it as a starting point but still confirm.
 
 ## Step 2: Find the watering holes
 
-1. Fetch threads for the product/market terms and top keywords via the canonical Reddit tooling (reddit-build-radar arctic-shift/pullpush, `reddit-fetch.py`, or kipi-mcp `fetch_hot_threads`), sorted by relevance then top. Run up to 5 searches.
+1. Fetch threads for the product/market terms and top keywords via the canonical Reddit tooling (reddit-build-radar arctic-shift/pullpush), sorted by relevance then top. Run up to 5 searches.
 2. From results, identify the 5-8 subreddits where real discussion happens.
 3. Pull recent posts from the top subreddits (same canonical tooling) to gauge activity.
 4. Fetch threads for each competitor name if provided (same canonical tooling).
@@ -40,7 +40,7 @@ If passed as `$ARGUMENTS`, use it as a starting point but still confirm.
 
 ## Step 3: Deep dive (real threads, real quotes)
 
-1. Search the top 3-5 subreddits for pain keywords, the product name, and competitor comparisons via the canonical Reddit tooling (reddit-build-radar arctic-shift/pullpush, `reddit-fetch.py`, or kipi-mcp `fetch_hot_threads`).
+1. Search the top 3-5 subreddits for pain keywords, the product name, and competitor comparisons via the canonical Reddit tooling (reddit-build-radar arctic-shift/pullpush).
 2. For the 5-10 highest-signal threads, fetch the full comment thread via reddit-build-radar (arctic-shift/pullpush).
 3. Pull verbatim quotes. Keep the link with each one. Do not clean up how people talk.
 
