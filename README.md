@@ -1,6 +1,8 @@
-# customer-recon
+# What Your Customers Actually Want
 
-A threat-intelligence approach to knowing your market. Runs in Claude Code, reads what your buyers actually say on Reddit, and links every quote.
+*(repo: `customer-recon`)*
+
+Your customers already told you what they want. This reads the Reddit threads where your buyers complain, ranks the pain, and links every quote. Runs in Claude Code.
 
 I spent 12 years doing threat intelligence. The work was reconnaissance. Build a picture of a target from what they say in the open, before you make contact.
 
