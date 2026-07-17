@@ -50,3 +50,14 @@ I build custom AI systems for founders and small teams. This is the free, lighte
 ## License
 
 MIT. See [`LICENSE`](LICENSE).
+
+
+---
+
+## Built by Assaf
+
+I spent 12 years in threat intelligence watching teams find the same failure and fix it four times. The learning never stuck. I build tools that make it stick.
+
+This is the free version. The paid kits live at [claudedaddy.io](https://claudedaddy.io).
+
+**Want this wired into your team's repo, or a heavier spec-and-review pipeline?** That's the consulting. [Book a call.](https://calendar.app.google/cMFvhvDsfi9iyWYy9)
